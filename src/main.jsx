@@ -43,7 +43,7 @@ const router = createBrowserRouter(
 
     <Route path='https://jaimin-bariya.github.io/React-Routing-Demo/' element={<Layout />} errorElement={<ErrorPage />} >
 
-        <Route path="" element={<Home/>} />
+        <Route path="https://jaimin-bariya.github.io/React-Routing-Demo/" element={<Home/>} />
         <Route path="about" element={<About/>} > 
 
           <Route path='me' element={<User />} />
